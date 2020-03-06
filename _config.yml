@@ -16,30 +16,30 @@
 
 ## => Site Settings
 ##############################
-text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night-eighties # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: "dark" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: "tomorrow-night-eighties" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 龙的传人
+title   : "龙的传人"
 description: > # this means to ignore newlines until "Language & timezone"
-  未来的自己一定会感谢现在努力奋斗的你！
+  "未来的自己一定会感谢现在努力奋斗的你！"
 
 
 ## => Language and Timezone
 ##############################
-lang: zh-CN # the language of your site, default as "en"
-timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: "zh-CN" # the language of your site, default as "en"
+timezone: "Asia/Shanghai" # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : person # "person" (default), "organization"
-  name      : 龙的传人
+  type      : "person" # "person" (default), "organization"
+  name      : "龙的传人"
   url       :
   avatar    : # path or url of avatar image (square)
-  bio       : 从事自动驾驶决策控制的软件工程师
-  email     : 409907321@qq.com
+  bio       : "从事自动驾驶决策控制的软件工程师"
+  email     : "409907321@qq.com"
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : PengSi # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : "PengSi" # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -74,11 +74,11 @@ paths:
 excerpt_separator: <!--more-->
 
 ## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+license: "CC-BY-NC-4.0" # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
 ## TOC
 toc:
-  selectors: h1,h2,h3 # "h1,h2,h3" (default)
+  selectors: "h1,h2,h3" # "h1,h2,h3" (default)
 
 
 ## => Markdown Enhancements
@@ -127,11 +127,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 538f1f882faa68f1d5fe # GitHub Application Client ID
-    clientSecret: ad3ae76696c1d31d449aec38c642e9039d945ee1 # GitHub Application Client Secret
-    repository  : pengsi.github.io # GitHub repo
-    owner       : 409907321@qq.com # GitHub repo owner
-    admin: 409907321@qq.com # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : "538f1f882faa68f1d5fe" # GitHub Application Client ID
+    clientSecret: "ad3ae76696c1d31d449aec38c642e9039d945ee1" # GitHub Application Client Secret
+    repository  : "pengsi.github.io" # GitHub repo
+    owner       : "409907321@qq.com" # GitHub repo owner
+    admin: "409907321@qq.com" # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine

@@ -6,7 +6,7 @@ description: ""
 tag: TensorFlow
 ---
 
-# TensorFlow 基础
+# TensorFlow 基础 
 
 ```本文将从张量与图、常数与变量还有占位符等基本概念出发简要介绍 TensorFlow。需要进一步了解 TensorFlow 的读者可以阅读谷歌 TensorFlow 的文档，当然也可以阅读其他中文教程或书籍，例如《TensorFlow：实战 Google 深度学习框架》和《TensorFlow 实战》等。```
 
