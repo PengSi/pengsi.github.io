@@ -436,10 +436,10 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
+  enable: true
+  clientID: 538f1f882faa68f1d5fe # 54730ddf7b9420460c03
+  clientSecret: ad3ae76696c1d31d449aec38c642e9039d945ee1 # c05684701b25ff1c19ea0c01ce4d80c125e0707d
+  repo: pengsi.github.io
   owner: # colingpt
   admin: # colingpt
 
@@ -555,7 +555,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
