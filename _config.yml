@@ -440,8 +440,8 @@ gitalk:
   clientID: 538f1f882faa68f1d5fe # 54730ddf7b9420460c03
   clientSecret: ad3ae76696c1d31d449aec38c642e9039d945ee1 # c05684701b25ff1c19ea0c01ce4d80c125e0707d
   repo: pengsi.github.io
-  owner: # colingpt
-  admin: # colingpt
+  owner: PengSi # colingpt
+  admin: PengSi # colingpt
 
 # Baidu Share
 # Available value:
