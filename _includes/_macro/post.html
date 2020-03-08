@@ -317,7 +317,8 @@
               {{ __.post.read_more }} &raquo;
             </a>
           </div>
-          
+        <div>{{"-------------------------------"}}
+        </div>
           <!--/noindex-->
         {% else %}
           {% if post.type == 'picture' %}
@@ -329,8 +330,6 @@
       {% else %}
         {% include _macro/post-content.html %}
       {% endif  %}
-      <div>{{"-------------------------------"}}
-      </div>
     </div>
 
     <div>
