@@ -222,9 +222,9 @@
             {% include _helper/wordcount.html %}
             <div class="post-wordcount">
               {% if site.post_wordcount.wordcount %}
-                {% unless site.post_wordcount.separated_meta %}
+                <!--{% unless site.post_wordcount.separated_meta %}-->
                   <span class="post-meta-divider">|</span>
-                {% endunless %}
+                <!--{% endunless %}-->
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
@@ -265,7 +265,6 @@
         </div>
       </header>
     {% endunless %}
-      <div>{{"------------------------"}}
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
       {% comment %} Gallery support {% endcomment %}
@@ -318,6 +317,7 @@
               {{ __.post.read_more }} &raquo;
             </a>
           </div>
+          
           <!--/noindex-->
         {% else %}
           {% if post.type == 'picture' %}
@@ -329,6 +329,7 @@
       {% else %}
         {% include _macro/post-content.html %}
       {% endif  %}
+      <div>{{-------------------------------}}
       </div>
     </div>
 
