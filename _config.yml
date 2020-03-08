@@ -282,7 +282,7 @@ sidebar:
   b2t: true
 
   # Scroll percent label in b2t button
-  scrollpercent: false
+  scrollpercent: true
 
 
 # Blog rolls
@@ -322,8 +322,8 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -335,8 +335,8 @@ post_wordcount:
 # Declare license on posts
 post_copyright:
   enable: true
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 
@@ -601,7 +601,7 @@ local_search:
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
-exturl: false
+exturl: true
 
 
 #! ---------------------------------------------------------------
