@@ -3,7 +3,9 @@ layout: post
 title: "MarkDown中输入公式"
 date: 2018-01-19
 description: "在学习数学知识的时候，在计算机上写公式是比较头疼的事情。使用LaTex可以在一定程度上缓解蛋疼的状况——最起码看起来还挺拉风。"
-tag: MarkDown
+categories: MarkDown
+tags: [MarkDown,LaTex,数学公式]
+image: http://gastonsanchez.com/images/blog/mathjax_logo.png
 ---
 
 # **LaTex 公式**
