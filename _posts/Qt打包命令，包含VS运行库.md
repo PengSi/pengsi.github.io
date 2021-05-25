@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Qt打包命令，包含VS运行库"
+date: 2021-03-09
+description: ""
+categories: Qt
+tags: [Qt,VS]
+---
+
+
 ```shell
 windeployqt --qmldir D:\Qt\Qt5.15.2\5.15.2\msvc2019_64\qml TemplateProject.exe
 ```
